@@ -1,101 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Saeed's Site</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hammad's Site</title>
 </head>
 <body>
 
-	<div class="container-fluid">
-		<p class="sect">Welcome Traveler</p>
-		<p>The name is Hammad Saeed</p>
-		<p>I am currently a Student at The City College of New York, a B.S. in Computer Science candidate with an expected graduaton date of FALL 2021. 
-			<br /> Hopefully you get a chance to learn more about me if thats what you're here for, inquire about discord to access to free games if thats your thing!
-			<br /> If your're hiring here is my <a href="HSresume_Web.pdf">resume.</a></p>
-	</div>
-
-	<hr />
 
 
-<div class="slideshow-container"></div>
+    <div class ="main-content">
+       
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="title" href="./">Hammad Saeed</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Writings</a>
+                <a class="nav-item nav-link" href="#">Projects</a>
+                <a class="nav-item nav-link" href="#">Resume</a>
+              </div>
+            </div>
+          </nav>
+    </div>
 
-	<div id="projects" class="carousel slide" data-ride="carousel">
-
-	  <!-- Indicators -->
-	  <ul class="carousel-indicators">
-	    <li data-target="#projects" data-slide-to="0" class="active"></li>
-	    <li data-target="#projects" data-slide-to="1"></li>
-	    <li data-target="#projects" data-slide-to="2"></li>
-	    <li data-target="#projects" data-slide-to="3"></li>
-	  </ul>
-
-	  <!-- The slideshow -->
-	  <div class="carousel-inner">
-	    
-	    <div class="carousel-item active">
-	      <img src="https://hammadus.github.io/images/tipapp.PNG" alt="Tip Application">
-	      <div class="carousel-caption">
-	        <h3>Tip Calculator</h3>
-	        <p>An ios application for iPhone that calculates the percentage of tip based on billing amount. Swift.</p>
-	      </div>
-	    </div>
-	   
-	    <div class="carousel-item">
-	      <img src="https://hammadus.github.io/images/opengl.PNG" alt="OpenGL Triangle">
-	      <div class="carousel-caption">
-	        <h3>Animated Triangle</h3>
-	        <p>Used OpenGL to create a floating triangle movable in 3D perspective.</p>
-	      </div>
-	    </div>
-	    
-	    <div class="carousel-item">
-	      <img src="https://hammadus.github.io/images/empire.PNG" alt="Python Game">
-	      <div class="carousel-caption">
-	        <h3>Empire Strikes Back</h3>
-	        <p>PyGame library used to make a Star Wars 2D game shooter.</p>
-	      </div>
-	    </div>
-	     
-	     <div class="carousel-item">
-	      <img src="https://hammadus.github.io/images/marketwatch.PNG" alt="Market Scraper">
-	      <div class="carousel-caption">
-	        <h3>Market Scraper</h3>
-	        <p>Scrapes the MarketWatch Website index in real time.</p>
-	      </div>
-	    </div>
-
-	  </div>
-
-	  <!-- Left and right controls -->
-	  <a class="carousel-control-prev" href="#projects" data-slide="prev">
-	    <span class="carousel-control-prev-icon"></span>
-	  </a>
-	  <a class="carousel-control-next" href="#projects" data-slide="next">
-	    <span class="carousel-control-next-icon"></span>
-	  </a>
-
-	</div>
-</div>
-
-
-	<hr />
-
-
-	<div class="container-fluid">
-		<p class="sect">Media and Other Links</p>
-		<ul>
-
-			<a href="#" class="fa fa-linkedin"></a> <a href="https://linkedin.com/in/hammad-s">Linkedin</a><br />
-			<a href="#" class="fa fa-github"></a> <a href="https://github.com/Hammadus">Github</a><br />
-			<a href="#" class="fa fa-twitter"></a> <a href="https://twitter.com/GnomeistIlyas">Twitter</a>
-		</ul>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
